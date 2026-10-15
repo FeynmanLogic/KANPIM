@@ -1,0 +1,462 @@
+
+****** Vivado v2024.1.2 (64-bit)
+  **** SW Build 5164865 on Thu Sep  5 14:36:28 MDT 2024
+  **** IP Build 5164407 on Fri Sep  6 08:18:11 MDT 2024
+  **** SharedData Build 5164864 on Thu Sep 05 13:09:09 MDT 2024
+  **** Start of session at: Thu Oct 15 11:19:04 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source synth.tcl
+# read_verilog parallel_cubic_spline.v
+read_verilog: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 133470 ; free virtual = 467009
+# read_xdc timing.xdc
+# synth_design \
+#     -top parallel_cubic_spline \
+#     -part xc7a100tcsg324-1 \
+#     -mode out_of_context
+Command: synth_design -top parallel_cubic_spline -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 554903
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131880 ; free virtual = 465420
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'parallel_cubic_spline' [/nethome/dkulkarni47/KANPIM/KANPIM/parallel_cubic_spline.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'parallel_cubic_spline' (0#1) [/nethome/dkulkarni47/KANPIM/KANPIM/parallel_cubic_spline.v:12]
+WARNING: [Synth 8-7129] Port x_data[143] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[142] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[141] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[140] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[127] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[126] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[125] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[124] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[111] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[110] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[109] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[108] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[95] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[94] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[93] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[92] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[79] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[78] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[77] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[76] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[63] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[62] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[61] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[60] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[47] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[46] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[45] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[44] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[31] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[30] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[29] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[28] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[15] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[14] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[13] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[12] in module parallel_cubic_spline is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131767 ; free virtual = 465308
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131760 ; free virtual = 465300
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131760 ; free virtual = 465300
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131760 ; free virtual = 465301
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/nethome/dkulkarni47/KANPIM/KANPIM/timing.xdc]
+Finished Parsing XDC File [/nethome/dkulkarni47/KANPIM/KANPIM/timing.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131712 ; free virtual = 465253
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 131712 ; free virtual = 465253
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 130503 ; free virtual = 464078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 130500 ; free virtual = 464075
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 130496 ; free virtual = 464070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'parallel_cubic_spline'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 ST_IDLE |                              000 |                              000
+                 ST_READ |                              001 |                              001
+              ST_HORNER2 |                              010 |                              010
+              ST_HORNER3 |                              011 |                              011
+                ST_WRITE |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'parallel_cubic_spline'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 130316 ; free virtual = 463893
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 9     
++---Registers : 
+	               64 Bit    Registers := 9     
+	               16 Bit    Registers := 27    
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---RAMs : 
+	             1024 Bit	(16 X 64 bit)          RAMs := 9     
++---Muxes : 
+	   2 Input   16 Bit        Muxes := 9     
+	   5 Input   16 Bit        Muxes := 9     
+	   6 Input    3 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP G_SPLINE_LANE[0].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[0].full_product is absorbed into DSP G_SPLINE_LANE[0].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[1].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[1].full_product is absorbed into DSP G_SPLINE_LANE[1].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[2].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[2].full_product is absorbed into DSP G_SPLINE_LANE[2].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[3].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[3].full_product is absorbed into DSP G_SPLINE_LANE[3].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[4].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[4].full_product is absorbed into DSP G_SPLINE_LANE[4].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[5].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[5].full_product is absorbed into DSP G_SPLINE_LANE[5].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[6].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[6].full_product is absorbed into DSP G_SPLINE_LANE[6].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[7].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[7].full_product is absorbed into DSP G_SPLINE_LANE[7].full_product.
+DSP Report: Generating DSP G_SPLINE_LANE[8].full_product, operation Mode is: A*B.
+DSP Report: operator G_SPLINE_LANE[8].full_product is absorbed into DSP G_SPLINE_LANE[8].full_product.
+WARNING: [Synth 8-7129] Port x_data[143] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[142] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[141] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[140] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[127] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[126] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[125] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[124] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[111] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[110] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[109] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[108] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[95] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[94] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[93] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[92] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[79] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[78] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[77] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[76] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[63] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[62] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[61] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[60] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[47] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[46] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[45] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[44] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[31] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[30] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[29] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[28] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[15] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[14] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[13] in module parallel_cubic_spline is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x_data[12] in module parallel_cubic_spline is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 129647 ; free virtual = 463228
+---------------------------------------------------------------------------------
+ Sort Area is  G_SPLINE_LANE[0].full_product_0 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[1].full_product_2 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[2].full_product_3 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[3].full_product_4 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[4].full_product_5 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[5].full_product_6 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[6].full_product_7 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[7].full_product_8 : 0 0 : 1937 1937 : Used 1 time 0
+ Sort Area is  G_SPLINE_LANE[8].full_product_9 : 0 0 : 1937 1937 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++----------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name           | RTL Object                              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|parallel_cubic_spline | G_SPLINE_LANE[0].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[1].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[2].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[3].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[4].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[5].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[6].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[7].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[8].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
++----------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 16     | 16     | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127223 ; free virtual = 460809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5584] The signal "parallel_cubic_spline/G_SPLINE_LANE[0].coefficient_memory_reg" is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+INFO: [Synth 8-5584] The signal "parallel_cubic_spline/G_SPLINE_LANE[1].coefficient_memory_reg" is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+INFO: [Synth 8-5584] The signal "parallel_cubic_spline/G_SPLINE_LANE[2].coefficient_memory_reg" is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+INFO: [Synth 8-5584] The signal "parallel_cubic_spline/G_SPLINE_LANE[3].coefficient_memory_reg" is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+INFO: [Synth 8-5584] The signal "parallel_cubic_spline/G_SPLINE_LANE[4].coefficient_memory_reg" is implemented as distributed LUT RAM for the following reason(s): The timing constraints suggest that the chosen mapping will yield better timing results.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 126967 ; free virtual = 460553
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++----------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name           | RTL Object                              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++----------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|parallel_cubic_spline | G_SPLINE_LANE[5].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[6].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[7].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
+|parallel_cubic_spline | G_SPLINE_LANE[8].coefficient_memory_reg | 16 x 64(READ_FIRST)    | W |   | 16 x 64(WRITE_FIRST)   |   | R | Port A and B     | 0      | 1      | 
++----------------------+-----------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping Report
+-------NONE-------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance G_SPLINE_LANE[5].coefficient_memory_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance G_SPLINE_LANE[6].coefficient_memory_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance G_SPLINE_LANE[7].coefficient_memory_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance G_SPLINE_LANE[8].coefficient_memory_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 126583 ; free virtual = 460170
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127380 ; free virtual = 460969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127380 ; free virtual = 460969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127369 ; free virtual = 460958
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127368 ; free virtual = 460957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127368 ; free virtual = 460957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127367 ; free virtual = 460956
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name           | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|parallel_cubic_spline | A*B         | 30     | 8      | -      | -      | 32     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++----------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    36|
+|2     |DSP48E1  |     9|
+|3     |LUT1     |     1|
+|4     |LUT2     |     2|
+|5     |LUT3     |     9|
+|6     |LUT4     |     1|
+|7     |LUT5     |   146|
+|8     |LUT6     |   153|
+|9     |RAM32M   |    55|
+|10    |RAMB36E1 |     4|
+|11    |FDCE     |   371|
+|12    |FDRE     |   320|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127367 ; free virtual = 460956
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 37 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127350 ; free virtual = 460939
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127350 ; free virtual = 460939
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127675 ; free virtual = 461267
+INFO: [Netlist 29-17] Analyzing 104 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'parallel_cubic_spline' is not ideal for floorplanning, since the cellview 'parallel_cubic_spline' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/nethome/dkulkarni47/KANPIM/KANPIM/timing.xdc]
+Finished Parsing XDC File [/nethome/dkulkarni47/KANPIM/KANPIM/timing.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127523 ; free virtual = 461117
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 55 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 55 instances
+
+Synth Design complete | Checksum: 6c345512
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 74 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:36 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127509 ; free virtual = 461103
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2314.180; main = 1963.019; forked = 500.597
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 4472.332; main = 2795.043; forked = 1733.316
+# report_utilization -file utilization_timed.rpt
+# report_timing_summary \
+#     -delay_type min_max \
+#     -report_unconstrained \
+#     -check_timing_verbose \
+#     -max_paths 20 \
+#     -file timing_summary_timed.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 125961 ; free virtual = 459563
+# report_methodology -file methodology_timed.rpt
+Command: report_methodology -file methodology_timed.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file /nethome/dkulkarni47/KANPIM/KANPIM/methodology_timed.rpt.
+report_methodology completed successfully
+# report_drc -file drc_timed.rpt
+Command: report_drc -file drc_timed.rpt
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/software/xilinx/ARCHIVE/Vivado/2024.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /nethome/dkulkarni47/KANPIM/KANPIM/drc_timed.rpt.
+report_drc completed successfully
+# write_checkpoint -force parallel_cubic_spline_timed_synth.dcp
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 0.000 ; gain = 0.000 ; free physical = 127764 ; free virtual = 461371
+INFO: [Common 17-1381] The checkpoint '/nethome/dkulkarni47/KANPIM/KANPIM/parallel_cubic_spline_timed_synth.dcp' has been generated.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 15 11:20:05 2026...
